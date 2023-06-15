@@ -1,0 +1,45 @@
+@font-face {
+    font-family: 'Raleway';
+    src: url("/maquette_blog/maquetteblog/assets/font/raleway/Raleway-Regular.ttf");
+}
+
+*{
+    font-family: 'Raleway';
+    margin: 0; padding: 0;
+    /* border: solid; */
+}
+
+/* header */
+
+header{
+    display: flex; flex-direction: column; align-items: center; height: 15vh; margin-top: 2%; margin-bottom: 5vh;
+}
+
+.titre{
+    font-size: 2.5vw; margin-bottom: 2%;
+}
+
+.minititre{
+    font-size: 1vw; width: 100%; text-align: center;
+}
+
+.minititre .estranger{
+    background-color: black; color: white; padding: 4px 10px 4px 10px;
+}
+
+/* fin header --- début section, début "myself" */
+
+.myself{
+    display: flex;
+    flex-direction: row-reverse;
+    height: 50vh;
+    margin: 0 5% 0 5%;
+}
+
+.myself .me{
+    margin-left: 2%;
+}
+
+.myself .me .visage img{
+    width: 100%; margin-bottom: 2%;
+}
