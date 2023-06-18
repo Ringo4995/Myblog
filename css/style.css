@@ -1,3 +1,5 @@
+@media only screen and (min-width: 1200px) {
+
 @font-face {
     font-family: 'Raleway';
     src: url("/maquette_blog/maquetteblog/assets/font/raleway/Raleway-Regular.ttf");
@@ -6,13 +8,12 @@
 *{
     font-family: 'Raleway';
     margin: 0; padding: 0;
-    /* border: solid; */
 }
 
 /* header */
 
 header{
-    display: flex; flex-direction: column; align-items: center; height: 15vh; margin-top: 2%; margin-bottom: 5vh;
+    display: flex; flex-direction: column; align-items: center; height: 15vh; margin-top: 2%; margin-bottom: 5vh; background-color: white;
 }
 
 .titre{
@@ -36,10 +37,276 @@ header{
     margin: 0 5% 0 5%;
 }
 
+
+/* début div me */
+
 .myself .me{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 0 0 0 0;
     margin-left: 2%;
+    height: 52vh;
+    width: 48%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.myself .me .visage{
+    width: 100%;
 }
 
 .myself .me .visage img{
+    width: 100%; margin-bottom: 2%; border-radius: 0;
+}
+
+.myself .me h1{
+    margin-left:3%; margin-bottom: 5%; display: block;
+}
+
+.myself .me p{
+    margin-left: 3%;  margin-right: 3%; font-size: 17px;
+}
+
+/* fin div me */
+
+/* début div redsun */
+
+.myself .redsun{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    margin-left: 2%; margin-top: 0;
+    height: 67vh;
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.myself .redsun .paradise{
+    width: 100%;
+}
+
+.myself .redsun .paradise .over{
     width: 100%; margin-bottom: 2%;
+}
+
+.myself .redsun h1{
+    margin-left:2%; margin-bottom: 2%; font-size: 27px;
+}
+
+.myself .redsun .secondtitre{
+    margin-left: 2%; font-size: 20px; margin-bottom: 3%;
+}
+
+.myself .redsun .gris{
+    color: gray;
+}
+
+.myself .redsun p{
+    margin-left: 2%;  margin-right: 3%; font-size: 17px;
+}
+
+.myself .redsun .lastline{
+    display: flex; margin-top: 3%; margin-left: 2%;
+}
+
+.myself .redsun .lastline .bouton{
+    color: black; background-color: white; border: solid 1px; font-size: 17px;
+padding: 1% 2% 1% 2%;}
+
+.myself .redsun .lastline p{
+    text-align:end; width: 100%; margin-top: 1%;
+}
+
+.myself .redsun .lastline span{
+    color: white; background-color: black; padding: 0.5% 1% 0.5% 1%;
+}
+
+/* Fin Myself, fin redsun */
+
+/* début div botlane & div bridge */
+
+.botlane{
+    display: flex;
+    flex-direction: row;
+}
+
+.bridge{
+    margin-top: 11%; 
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin-left: 7%;
+    height: 67vh;
+    width: 100%;
+}
+
+.botlane .bridge .imagepont{
+    width: 100%;
+}
+
+.botlane .bridge .imagepont .impt{
+    width: 100%; margin-bottom: 2%;
+}
+
+.botlane .bridge h1{
+    margin-left:2%; margin-bottom: 2%; font-size: 27px;
+}
+
+.botlane .bridge .deuxtitre{
+    margin-left: 2%; font-size: 20px; margin-bottom: 3%;
+}
+
+.botlane .bridge .grey{
+    color: gray;
+}
+
+.botlane .bridge p{
+    margin-left: 2%;  margin-right: 3%; font-size: 17px;
+}
+
+.botlane .bridge .derligne{
+    display: flex; margin-top: 3%; margin-left: 2%;
+}
+
+.botlane .bridge .derligne .button  {
+    color: black; background-color: white; border: solid 1px; font-size: 17px;
+padding: 1% 2% 1% 2%;}
+
+.botlane .bridge .derligne p{
+    text-align:end; width: 100%; margin-top: 1%;
+}
+
+.botlane .bridge .derligne span{
+    color: white; background-color: black; padding: 0.5% 1.1% 0.5% 1.1%; border-radius: 100%;
+}
+
+/* fin botlane début popular */
+
+.basdroite{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    width: 48%;
+    margin-left: 0.5%;
+    margin-right: 6.5%;
+}
+
+.popular{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    margin-left: 5.3%; margin-top: 12%;
+    height: 53.5vh;
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.basdroite .pp{
+    padding-left: 2.5%; font-size: 22px; padding-bottom: 3%; padding-top: 3%; width: 97.5%; background-color: darkgray;
+}
+
+.basdroite .popular .sweatshop, .basdroite .popular .gondole, .basdroite .popular .skyler, .basdroite .popular .mountain{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 3%; margin-top: 3%;
+    height: 20vh;
+} 
+
+.basdroite .popular img{
+    width: 13%; margin-left: 3.5%
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+    margin-left: 4%;
+}
+
+.basdroite .popular span{
+    font-size: 22px; margin-top: 1%;
+}
+
+.basdroite .popular .text p{
+    font: 20px; margin-top: 8%;
+}
+
+
+hr{
+    color: lightgray;
+}
+
+/* fin popular début prefoot */
+
+.prefoot{
+    width: 100%; margin-top: 12%; margin-left: 5.3%; height: 28vh; 
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; margin-bottom: 8vh;
+}
+
+.prefoot .pp{
+    margin-bottom: 1%;
+}
+
+.prefoot .tags{
+    margin-left: 3%; height: 20vh; display: flex; flex-direction: row; flex-wrap: wrap;
+}
+
+.prefoot .tags .étiquette{
+    margin-top: 3%; padding-left: 2%; padding-right: 2%;  margin-left: 0.5%; margin-right: 0.5%; background-color: rgb(245, 236, 236); margin-bottom: 5px; width: 14%; text-align: center; padding-top: 2%;
+}
+
+.prefoot .tags .darkness{
+    margin-top: 3%; padding-left: 2%; padding-right: 2%;  margin-left: 0.5%; margin-right: 0.5%; background-color: rgb(0, 0, 0); margin-bottom: 5px; width: 15%; text-align: center; padding-top: 2%; color: white; font-size: 1vw;
+}
+
+/* fin prefoot, début footer */
+
+footer{
+    height: 25vh; background-color: gray;
+}
+
+.forward{
+    display: flex; margin-left: 1%; 
+}
+.forward a{
+    color: white; text-decoration: none;
+}
+
+.forward .avant{
+    background-color: black; margin-top: 3%; padding: 1% 2% 1% 2%;
+}
+
+.forward .avant:hover{
+    background-color: rgb(70, 70, 70);
+}
+
+.forward a:hover{
+    color: gray;
+}
+
+.forward .apres{
+    background-color: black; margin-top: 3%; padding: 1% 2% 1% 2%; margin-left: 0.5%;
+}
+
+.forward .apres:hover{
+    background-color: rgb(70, 70, 70);
+}
+
+.forward a:hover{
+    color: gray;
+}
+
+.drive{
+    color: white; margin-left: 1%; margin-top: 2.5%;
+}
+
+.drive span{
+    display: none;
+}
+
+.drive{
+    color: white; margin-left: 1.1%; margin-top: 2.5%; font-size: 1vw;
+}
+
+.forward .avant, .forward .apres{
+    font-size: 1vw;
+}
+
 }

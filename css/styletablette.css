@@ -1,0 +1,306 @@
+@media only screen and (min-width : 576px) {
+
+    @font-face {
+        font-family: 'Raleway';
+        src: url("/maquette_blog/maquetteblog/assets/font/raleway/Raleway-Regular.ttf");
+    }
+    
+    *{
+        font-family: 'Raleway';
+        margin: 0; padding: 0;
+    }
+
+    /* header */
+    
+    header{
+        display: flex; flex-direction: column; align-items: center; height: 15vh; padding-top: 5%; padding-bottom: 5vh; background-color: bisque;
+    }
+    
+    .titre{
+        font-size: 4vw; margin-bottom: 2%;
+    }
+    
+    .minititre{
+        font-size: 1.5vw; width: 100%; text-align: center;
+    }
+    
+    .minititre .estranger{
+        background-color: black; color: white; padding: 4px 10px 4px 10px;
+    }
+    
+    /* fin header --- début section, début "myself" */
+    
+    .myself{
+        display: flex;
+        flex-direction: column;
+        height: 50vh;
+        margin: 0 0 0 0;
+    }
+    
+    
+    /* début div me */
+    
+
+    .myself .me{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        padding-top: 2%;
+        padding-left: 2%;
+        padding-bottom: 1%;
+        height: 52vh;
+        width: 98%;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    }
+    
+    .myself .me .visage{
+        width: 40%;
+    }
+    
+    .myself .me .visage img{
+        width: 100%; margin-bottom: 2%; border-radius: 10px;
+    }
+    
+    .myself .me h1{
+        margin-left:3%; margin-bottom: 5%; display: none;
+    }
+    
+    .myself .me p{
+        margin-left: 3%;  margin-right: 3%; font-size: 17px;
+    }
+    
+    /* fin div me */
+    
+    /* début div redsun */
+    
+    .myself .redsun{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        margin-left: 2%;
+        margin-top: 4%;
+        height: 100vh;
+        width: 98%;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    }
+    
+    .myself .redsun .paradise{
+        width: 100%;
+    }
+    
+    .myself .redsun .paradise .over{
+        width: 100%; margin-bottom: 1%;
+    }
+    
+    .myself .redsun h1{
+        margin-left:1%; margin-bottom: 2%; font-size: 27px;
+    }
+    
+    .myself .redsun .secondtitre{
+        margin-left: 1%; font-size: 20px; margin-bottom: 2%;
+    }
+    
+    .myself .redsun .gris{
+        color: gray;
+    }
+    
+    .myself .redsun p{
+        margin-left: 1%;  margin-right: 1%; font-size: 17px;
+    }
+
+    .myself .redsun .lastline{
+        display: flex; margin-top: 3%; margin-left: 1%; margin-bottom: 1%;
+    }
+    
+    .myself .redsun .lastline .bouton{
+        color: black; background-color: white; border: solid 1px; font-size: 17px;
+    padding: 1% 2% 1% 2%;} 
+    
+    .myself .redsun .lastline p{
+        text-align:end; width: 100%; margin-top: 2%;
+    }
+    
+    .myself .redsun .lastline span{
+        color: white; background-color: black; padding: 0.5% 1% 0.5% 1%;
+    }
+    
+    /* Fin Myself, fin redsun */
+    
+    /* début div botlane & div bridge */
+    
+    .botlane{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .bridge{
+        margin-top: 53%; 
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        margin-left: 2%;
+        height: 88vh;
+        width: 98%;
+    }
+    
+    .botlane .bridge .imagepont{
+        width: 100%;
+    }
+    
+    .botlane .bridge .imagepont .impt{
+        width: 100%; margin-bottom: 1%;
+    }
+    
+    .botlane .bridge h1{
+        margin-left:1%; margin-bottom: 2%; font-size: 27px;
+    }
+    
+    .botlane .bridge .deuxtitre{
+        margin-left: 1%; font-size: 20px; margin-bottom: 2%;
+    }
+    
+    .botlane .bridge .grey{
+        color: gray;
+    }
+    
+    .botlane .bridge p{
+        margin-left: 1%;  margin-right: 1%; font-size: 17px;
+    }
+    
+    .botlane .bridge .derligne{
+        display: flex; margin-top: 3%; margin-left: 1%;
+    }
+    
+    .botlane .bridge .derligne .button  {
+        color: black; background-color: white; border: solid 1px; font-size: 17px;
+    padding: 1% 2% 1% 2%;}
+    
+    .botlane .bridge .derligne p{
+        text-align:end; width: 100%; margin-top: 1%;
+    }
+    
+    .botlane .bridge .derligne span{
+        color: white; background-color: black; padding: 0.5% 1.25% 0.5% 1.25%; border-radius: 100%;
+    }
+    
+    /* fin botlane début popular */
+    
+    .basdroite{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        width: 98%;
+        margin-left: 2%;
+        margin-right: 6.5%;
+    }
+    
+    .popular{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        margin-left: 0%; margin-top: 4%;
+        height: 64vh;
+        width: 100%;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    }
+    
+    .basdroite .pp{
+        padding-left: 2.5%; font-size: 22px; padding-bottom: 3%; padding-top: 3%; width: 97.5%; background-color: darkgray;
+    }
+    
+    .basdroite .popular .sweatshop, .basdroite .popular .gondole, .basdroite .popular .skyler, .basdroite .popular .mountain{
+        display: flex;
+        flex-wrap: wrap;
+        margin-bottom: 1.5%; margin-top: 1.5%;
+        height: 8vh;
+    } 
+    
+    .basdroite .popular img{
+        width: 6%; margin-left: 1%
+    }
+    
+    .text{
+        display: flex;
+        flex-direction: column;
+        margin-left: 1%;
+    }
+    
+    .basdroite .popular span{
+        font-size: 22px; margin-top: 1%;
+    }
+    
+    .basdroite .popular .text p{
+        font: 30px; margin-top: 4%;
+    }
+    
+    
+    hr{
+        color: lightgray;
+    }
+    
+    /* fin popular début prefoot */
+    
+    .prefoot{
+        width: 100%; margin-top: 4%; margin-left: 0%; height: 38vh; 
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; margin-bottom: 8vh;
+    }
+    
+    .prefoot .pp{
+        margin-bottom: 1%;
+    }
+    
+    .prefoot .tags{
+        margin-left: 3%; height: 20vh; display: flex; flex-direction: row; flex-wrap: wrap;
+    }
+    
+    .prefoot .tags .étiquette{
+        margin-top: 2%; padding-left: 0%; padding-right: 0%;  margin-left: 0%; margin-right: 0.5%; background-color: rgb(245, 236, 236); margin-bottom: 5px; width: 9%; text-align: center; padding-top: 0.5%;height: 3vh; padding-bottom:0.5% ;
+    }
+    
+    .prefoot .tags .darkness{   
+        margin-top: 2%; padding-left: 0%; padding-right: 0%;  margin-left: 0%; margin-right: 0.5%; background-color: rgb(0, 0, 0); margin-bottom: 5px; width: 9%; text-align: center; padding-top: 0.5%; color: white; font-size: 2vw;height: 3vh; padding-bottom: 0.75%;
+    }
+    
+    /* fin prefoot, début footer */
+    
+    footer{
+        height: 25vh; background-color: gray;
+    }
+    
+    .forward{
+        display: flex; margin-left: 2%; 
+    }
+    .forward a{
+        color: white; text-decoration: none;
+    }
+    
+    .forward .avant{
+        background-color: black; margin-top: 3%; padding: 1% 2% 1% 2%;
+    }
+    
+    .forward .avant:hover{
+        background-color: rgb(70, 70, 70);
+    }
+    
+    .forward a:hover{
+        color: gray;
+    }
+    
+    .forward .apres{
+        background-color: black; margin-top: 3%; padding: 1% 2% 1% 2%; margin-left: 0.5%;
+    }
+    
+    .forward .apres:hover{
+        background-color: rgb(70, 70, 70);
+    }
+    
+    .forward a:hover{
+        color: gray;
+    }
+    
+    .drive{
+        color: white; margin-left: 2%; margin-top: 2.5%; font-size: 2vw;
+    }
+
+    .forward .avant, .forward .apres{
+        font-size: 3vw;
+    }
+}
